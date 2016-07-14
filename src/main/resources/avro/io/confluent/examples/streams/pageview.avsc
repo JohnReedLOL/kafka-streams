@@ -1,0 +1,9 @@
+{"namespace": "io.confluent.examples.streams.avro",
+ "type": "record",
+ "name": "PageView",
+ "fields": [
+     {"name": "user", "type": "string"},
+     {"name": "page", "type": "string"},
+     {"name": "industry", "type": "string"}
+ ]
+}
